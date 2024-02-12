@@ -14,15 +14,16 @@
   justify-content: center;
   flex-direction: column;
   color: #237194;
+  .heading {
+    h1 {
+      padding: 0 15px;
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 15px;
 
-  h1 {
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: -50px;
-    margin-bottom: 50px;
-
-    span {
-      color: #faa32b;
+      span {
+        color: #faa32b;
+      }
     }
   }
 
@@ -87,6 +88,16 @@
       option {
         cursor: pointer;
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 844px) and (orientation: landscape) {
+  .hero {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    .heading {
+      margin: 10px 0;
     }
   }
 }
