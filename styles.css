@@ -19,7 +19,8 @@
       padding: 0 15px;
       font-size: 40px;
       font-weight: 500;
-      margin-bottom: 15px;
+      margin-top: -50px;
+      margin-bottom: 50px;
 
       span {
         color: #faa32b;
@@ -88,16 +89,6 @@
       option {
         cursor: pointer;
       }
-    }
-  }
-}
-
-@media only screen and (min-width: 844px) and (orientation: landscape) {
-  .hero {
-    padding: 10px 0;
-    margin-bottom: 10px;
-    .heading {
-      margin: 10px 0;
     }
   }
 }
