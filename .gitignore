@@ -19,3 +19,7 @@ npm-debug.log
 
 # Ignore any other files you want to exclude
 .DS_Store
+
+.vercel
+
+node_modules/
